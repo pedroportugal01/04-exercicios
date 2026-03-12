@@ -22,31 +22,3 @@ Valor da tarifa base (variável static).
 Tipo de tarifa (estudante e professor pagam 50% da tarifa base e normal paga 100% da tarifa base).
 Codificar o método construtor para inicializar os atributos, método para carregar o bilhete e método para simular a passagem na catraca. Teste o seu programa gerando um objeto e chamando os métodos para validar a codificação.
 
-Exercício 04
-
-Um estacionamento deseja controlar quantos carros já entraram no local durante o dia. Cada carro registrado deve possuir: placa e modelo. O sistema deve manter o total de carros que já passaram pelo estacionamento. Codifique o método construtor para inicializar os atributos do objeto e também um método para retornar o total de carros que já entraram no estacionamento. Teste a sua aplicação gerando alguns objetos e imprimindo o total de carros para conferência.
-
-Exercício 05
-
-Uma plataforma de streaming possui diversos usuários cadastrados em diferentes planos. Recentemente, a empresa decidiu aplicar um reajuste global de preços em todos os planos devido ao aumento de custos operacionais. Entretanto:
-
-o percentual de reajuste deve ser único para todos.
-esse percentual deve ser controlado pelo sistema.
-todas as contas devem usar o mesmo percentual vigente.
-Implementar a classe ContaStreaming considerando uma taxa global de reajuste compartilhada entre todas as contas. A classe deverá ter os seguintes atributos: usuário, plano e valor do plano. Codifique o método construtor para inicializar todos os atributos do objeto, um método para alterar o valor da taxa global e um método para calcular, atualizar e retornar o valor do plano.
-
-Exercício 06
-
-Uma empresa está criando um jogo simples onde cada jogador possui uma pontuação (score). Em determinados momentos do jogo, a empresa ativa um bônus global (ex.: evento de final de semana), que aumenta os pontos ganhos por todos os jogadores.
-
-Regras:
-
-Cada Jogador tem: nome e pontuacao.
-Existe um multiplicador de bônus global compartilhado por todos os jogadores.
-Quando um jogador ganha pontos, o valor real adicionado deve ser: pontosGanho * multiplicadorGlobal.
-O bônus global pode ser alterado durante a execução do programa e deve impactar todos os jogadores.
-Codifique uma classe para representar cada jogador da aplicação. Codifique os seguintes métodos:
-
-Método construtor para inicializar os atributos do objeto.
-Método para alterar o valor do multiplicador global. -Método para aplicar pontos no jogador obedecendo a regra descrita no slide anterior.
-Teste sua aplicação gerando alguns objetos e alterando o multiplicador global. Imprima os valores da pontuação de cada jogador para verificar se os métodos e os resultados estão corretos.
